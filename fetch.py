@@ -8,14 +8,15 @@ specific keywords.
 """
 
 import hashlib
-import html
 import os
+from HTMLParser import HTMLParser
+html = HTMLParser()
 import re
 import requests
 import subprocess
 
 RELEVANT_HOSTS = [
-    'alkaid',
+    'alpheca',
 ]
 #NOTIFY_COMMAND = 'cat; echo subject: {}'
 NOTIFY_COMMAND = 'mail -s "{}" $USER'
