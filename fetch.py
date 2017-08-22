@@ -16,7 +16,6 @@ import subprocess
 
 RELEVANT_HOSTS = [
     'alkaid',
-    'perseus',
 ]
 #NOTIFY_COMMAND = 'cat; echo subject: {}'
 NOTIFY_COMMAND = 'mail -s "{}" $USER'
